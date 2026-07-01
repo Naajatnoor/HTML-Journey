@@ -6,11 +6,7 @@ This repository contains my daily HTML practice while learning web development.
 
 | Day  | Topics |
 |------|--------|
-| Day 1 | HTML Introduction, Structure, Head
-         ,Body, Headings, Paragraph,HTML 
-          Introduction, Structure, Head,
-          Body, Headings, Paragraph,Lists,  
-          Hyperlinks, Images ,Audio ,Video  |
+| Day 1 | HTML Introduction,     Structure, Head,Body, Headings, Paragraph,HTML Introduction, Structure, Head,Body, Headings, Paragraph,Lists,Hyperlinks, Images ,Audio ,Video|
 
 ## Goal
 
