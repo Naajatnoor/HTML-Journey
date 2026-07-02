@@ -8,18 +8,62 @@
 <body>
 <h1>Second day of my HTML journey</h1>
 
-<p>Today i will Learn ,image tag,audio tag,video tag,navigation,list,sections and more...</p>
+<p><em><strong>Today</strong></em> I will Learn ,image tag,audio tag,video tag,navigation,list,sections and more...</p>
 
-<P>First, image tag: image tag add images in the webpage by using the src(source) attribute.<br>
-Second ,anchor tag: anchor tag is used to create hyperlinks in the webpage. </P>
+<P><strong>image tag</strong>: image tag add images in the webpage by using the src(source) attribute.<br>
+<strong>anchor tag</strong>: anchor tag is used to create hyperlinks in the webpage. </P>
 <hr>
-<p>Now in these picture they are studying  web development and programming. In the first image they are studying web development and in the second image they are studying programming.
+<p>Now in these picture they are studying web development and programming.
+    <ol>
+        <li>In the first image they are studying <strong>web development</strong>.</li>
+        <li>In the second image they are studying <strong>React</strong>.</li>
+    </ol>
 </p>
 <p>Lets see what they are studying,click on the images</p>
 <a href="https://www.w3schools.com/html/"><img src="images/studying.jpg" width="300" height="300"></a>
 <a href="https://react.dev/"><img src="images/programming.jpg" width="400" height="300"></a>
    <p> I combined both image tag and anchor tag to make the image clickable and redirect to the link provided in the anchor tag.</p>
+<hr>
+<p>Now I will learn about audio tag, audio tag is used to add audio in the webpage by using the src(source) attribute. It also has controls attribute which is used to display the audio controls like play,pause,volume etc.</p>
+
+<p><em>The audio tag </em> is used to embed sound content in a document, such as music or other audio streams.</p>
+
+The audio tag contains one or more source tags with different audio sources. The browser will choose the first source it supports.
+
+The text between the audio and /audio tags will only be displayed in browsers that do not support the audio element.
+
+There are three supported audio formats in HTML:<mark> MP3, WAV, and OGG.</mark></p>
+
+<h2>Audio Example</h2>
+<h3>Click on the play button to play sound</h3>
+<audio controls>
+  <source src="media/audio.mp3" type="audio/mpeg">
+  <source src="media/audio.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+
+<h1>Video Example with iframe</h1>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=4UmpORJ2_HXUPUY7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1>Video Example with controls and autoplay</h1>
+
+<ol><li>
+        <p>using controls </p>
+    <video width="320" height="240" controls>
+  <source src="media/dance.mp4" type="video/mp4">
+  <source src="media/dance.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> </li>
+
+<li><p>using autoplay</p>
+    <video width="320" height="240" autoplay>
+  <source src="media/dance.mp4" type="video/mp4">
+  <source src="media/dance.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> </li>
+</ol>
 
 
+ 
 </body>
 </html>
